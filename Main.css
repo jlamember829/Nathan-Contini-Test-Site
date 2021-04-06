@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background: #202126;
+ /* background-image: url("Assets/Comic background.jpg");
+  background-attachment: fixed;*/
+}
+
+.caption {
+  margin-top: -21%;
+}
+
+.comic {
+  background: white;
+}
+
+.header {
+  background: #202126;
+  /*background-image: url("Assets/Back Panel.png");
+  background-size: cover; 
+  border: 5px solid black;*/
+  font-family: 'Comic Neue', cursive;
+  font-weight: 900;
+}
+
+.header p {
+  background: gold;
+  border: 5px solid black;
+  box-shadow: 10px 10px black;
+}
+
+.panels {
+  border:5px solid black;
+}
+
