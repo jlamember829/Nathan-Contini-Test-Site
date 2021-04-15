@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  background: #202126;
+  background: white;
  /* background-image: url("Assets/Comic background.jpg");
   background-attachment: fixed;*/
 }
@@ -13,10 +13,11 @@ body {
 
 .comic {
   background: white;
+  box-shadow: 10px 10px 25px;
 }
 
 .header {
-  background: #202126;
+  background: white;
   /*background-image: url("Assets/Back Panel.png");
   background-size: cover; 
   border: 5px solid black;*/
