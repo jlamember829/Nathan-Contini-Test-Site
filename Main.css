@@ -35,3 +35,34 @@ body {
   border:5px solid black;
 }
 
+.contact {
+  background: #FF7E00;
+  background-image: url("Assets/Back Panel.png");
+  background-size: cover;
+}
+.contact p {
+  background: gold;
+  border: 5px solid black;
+  box-shadow: 10px 10px black;
+  font-family: 'Comic Neue', cursive;
+}
+
+.email {
+  font-family: 'Comic Neue', cursive;
+  background: white;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+/* webpages */ 
+
+
+
+/* special media quieres */
+
+@media only screen and (max-width: 767px) {
+  .contact p {
+    width: 83%;
+    margin-left: 40px;
+  }
+}
