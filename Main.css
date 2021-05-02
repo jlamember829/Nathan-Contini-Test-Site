@@ -3,8 +3,6 @@
 
 body {
   background: #f9f1f1;
- /* background-image: url("Assets/Comic background.jpg");
-  background-attachment: fixed;*/
 }
 
 .caption {
@@ -18,9 +16,6 @@ body {
 
 .header {
   background: #f9f1f1;
-  /*background-image: url("Assets/Back Panel.png");
-  background-size: cover; 
-  border: 5px solid black;*/
   font-family: 'Comic Neue', cursive;
   font-weight: 900;
 }
@@ -57,12 +52,284 @@ body {
 /* webpages */ 
 
 
+/* skills */
+.profile {
+  overflow: hidden;
+}
+.square1 {
+  height: 25px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+.square1 div {
+  display: block;
+  height: 100%;
+}
+.bar-1 {
+  background-color: midnightblue;
+  animation:  bar-1-animate 1500ms ease-in-out;
+  width: 480px
+}
+@keyframes bar-1-animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 480px;
+  }
+}
+
+.squareJS {
+  height: 25px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+.squareJS div {
+  display: block;
+  height: 100%;
+}
+.bar-2 {
+  background-color: midnightblue;
+  animation:  bar-2-animate 1500ms ease-in-out;
+  width: 410px;
+}
+@keyframes bar-2-animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 410px;
+  }
+}
+
+.squareBS {
+  height: 25px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+.squareBS div {
+  display: block;
+  height: 100%;
+}
+.bar-3 {
+  background-color: midnightblue;
+  animation:  bar-3-animate 1500ms ease-in-out;
+  width: 350px
+}
+@keyframes bar-3-animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 350px;
+  }
+}
+
+.squarejava {
+  height: 25px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+.squarejava div {
+  display: block;
+  height: 100%;
+}
+.bar-4 {
+  background-color: midnightblue;
+  animation:  bar-4-animate 1500ms ease-in-out;
+  width: 150px
+}
+@keyframes bar-4-animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 150px;
+  }
+}
+
+#skills {
+  list-style-type: none;
+  font-family: 'Comic Neue', cursive;
+}
+.border-4 {
+  border-width: 4px !important;
+  border-color: black !important;
+}
+
+.squareprogram {
+  height: 25px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+.squareprogram div {
+  display: block;
+  height: 100%;
+}
+.bar-5 {
+  background-color: midnightblue;
+  animation:  bar-5-animate 1500ms ease-in-out;
+  width: 50px
+}
+@keyframes bar-5-animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50px;
+  }
+}
+
+#skills {
+  list-style-type: none;
+}
+.border-4 {
+  border-width: 4px !important;
+  border-color: black !important;
+}
+.bio {
+  background: rgb(0,170,200);
+  background: linear-gradient(25deg, rgba(0,170,200,1) 0%, rgba(185,73,255,1) 50%);
+  font-family: 'Comic Neue', cursive;
+}
+
 
 /* special media quieres */
+
+@media only screen and (max-width: 990px) {
+  .profile {
+    display: none;
+  }
+}
+  
 
 @media only screen and (max-width: 767px) {
   .contact p {
     width: 83%;
     margin-left: 40px;
   }
+  .bar-1 {
+    background-color: midnightblue;
+    animation:  bar-1-animate 1500ms ease-in-out;
+    width: 300px
+  }
+  @keyframes bar-1-animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 300px;
+    }
+  }
+
+  .squareJS {
+    height: 25px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+  .squareJS div {
+    display: block;
+    height: 100%;
+  }
+  .bar-2 {
+    background-color: midnightblue;
+    animation:  bar-2-animate 1500ms ease-in-out;
+    width: 250px;
+  }
+  @keyframes bar-2-animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 250px;
+    }
+  }
+
+  .squareBS {
+    height: 25px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+  .squareBS div {
+    display: block;
+    height: 100%;
+  }
+  .bar-3 {
+    background-color: midnightblue;
+    animation:  bar-3-animate 1500ms ease-in-out;
+    width: 220px
+  }
+  @keyframes bar-3-animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 220px;
+    }
+  }
+
+  .squarejava {
+    height: 25px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+  .squarejava div {
+    display: block;
+    height: 100%;
+  }
+  .bar-4 {
+    background-color: midnightblue;
+    animation:  bar-4-animate 1500ms ease-in-out;
+    width: 90px
+  }
+  @keyframes bar-4-animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 90px;
+    }
+  }
+
+  #skills {
+    list-style-type: none;
+    font-family: 'Comic Neue', cursive;
+  }
+  .border-4 {
+    border-width: 4px !important;
+    border-color: black !important;
+  }
+
+  .squareprogram {
+    height: 25px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+  }
+  .squareprogram div {
+    display: block;
+    height: 100%;
+  }
+  .bar-5 {
+    background-color: midnightblue;
+    animation:  bar-5-animate 1500ms ease-in-out;
+    width: 15px
+  }
+  @keyframes bar-5-animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 15px;
+    }
+  }
 }
+
