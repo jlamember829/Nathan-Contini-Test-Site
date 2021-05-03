@@ -193,40 +193,48 @@ body {
   border-color: black !important;
 }
 .bio {
-  background: rgb(0,170,200);
-  background: linear-gradient(25deg, rgba(0,170,200,1) 0%, rgba(185,73,255,1) 50%);
+  background: white;
   font-family: 'Comic Neue', cursive;
+}
+.bioBar th{
+	text-align: center;
+	color: white;
+	background-color:#0048aa;
+	font-size: 15px;
+	border-top: none;
+}
+.profile {
+  display: none;
 }
 
 
 /* special media quieres */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1200px) {
   .profile {
+    display: inline-block;
+  }
+  .info {
     display: none;
   }
 }
   
-
+@media only screen and (max-width: 990px){
+  .profile {
+    display: none;
+  }
+  .biopic {
+    display: none;
+  }
+  .info {
+    display: inline-block;
+  }
+}
 @media only screen and (max-width: 767px) {
   .contact p {
     width: 83%;
     margin-left: 40px;
   }
-  .bar-1 {
-    background-color: midnightblue;
-    animation:  bar-1-animate 1500ms ease-in-out;
-    width: 300px
-  }
-  @keyframes bar-1-animate {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 300px;
-    }
-  }
-
   .squareJS {
     height: 25px;
     position: relative;
@@ -331,5 +339,11 @@ body {
       width: 15px;
     }
   }
+@media only screen and (max-width: 730px) {
+  .info {
+    display: none;
+  }
+  
+  
 }
 
