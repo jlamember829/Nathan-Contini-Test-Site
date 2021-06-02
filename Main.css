@@ -27,7 +27,7 @@ body {
 }
 
 .panels {
-  border:5px solid black;
+  border:3px solid black;
 }
 
 .contact {
@@ -50,6 +50,7 @@ body {
 }
 
 /* webpages */ 
+
 
 
 /* skills */
@@ -206,6 +207,9 @@ body {
 .profile {
   display: none;
 }
+.numbers {
+  box-shadow: 10px 10px black;
+}
 
 
 /* special media quieres */
@@ -339,7 +343,7 @@ body {
       width: 15px;
     }
   }
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 770px) {
   .info {
     display: none;
   }
