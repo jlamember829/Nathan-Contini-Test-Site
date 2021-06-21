@@ -9,7 +9,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="loading.css">-->
     <link rel="stylesheet" href="Main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -18,8 +17,10 @@
     <title>Nathan Contini</title>
   </head>
   <body>
-    <!--<h1 class="title">Loading</h1>
-    <div class="rainbow-marker-loader"></div>-->
+    <div class="loader">
+      <h1 class="title">Loading...</h1>
+      <img src="Assets/loader.gif" alt="loading...">
+    </div>
     <div class="header container">
 
       <figure>
@@ -31,10 +32,17 @@
         
 
         <div class="row comic mt-3 mb-5 pt-5 pb-3">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-12">
              <a href="Webpages.html">
               <figure >
-                <img id="hover1" class="img-fluid panels" width="922" height="768" src="Assets/Panel-1-Static.jpg">
+                <img id="hover1" class="img-fluid panels" width="100%" height="768" src="Assets/Panel-1-Static-Large.jpg">
+              </figure>
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-12 mobileWebpages">
+             <a href="Webpages.html">
+              <figure >
+                <img id="hover1.5" class="img-fluid panels" width="922" height="768" src="Assets/Panel-1-Static.jpg">
               </figure>
             </a>
           </div>
@@ -49,11 +57,6 @@
              <a href="index.html"><figure >
               <img id="hover3" class="img-fluid panels" width="922" height="768" src="Assets/Panel-1-Static.jpg">
             </figure></a>
-          </div>
-          <div  class="col-lg-6 col-md-12">
-            <figure >
-              <img id="hover4" class="img-fluid panels" width="922" height="768" src="Assets/Panel-1-Static.jpg">
-            </figure>
           </div>
           <div class="col-12">
             <div class="panels contact">
@@ -85,6 +88,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="Loader.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -93,11 +97,11 @@
 
       img.onmouseout = function () {
         var img = document.getElementById('hover1');
-         this.src = 'Assets/Panel-1-Static.jpg';
+         this.src = 'Assets/Panel-1-Static-Large.jpg';
       };
 
       img.onmouseover = function () {
-         this.src = 'Assets/Panel-1-hover.jpg';
+         this.src = 'Assets/Panel-1-hover-Large.jpg';
       };
     </script>
     <script>var img = document.getElementById('hover2');
